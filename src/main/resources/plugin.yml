@@ -1,0 +1,5 @@
+name: fly-permission
+version: ${project.version}
+main: me.lucko.flypermission.FlyPermission
+authors: [Luck]
+description: Disables fly mode for players without a permission

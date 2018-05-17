@@ -1,0 +1,23 @@
+# fly-permission
+# made with <3 by Luck
+
+# the permission required to use fly
+permission: "fly.use"
+
+# the message to send the player when their fly is disabled
+disable-message: "&cFly mode disabled!"
+
+# players in these gamemodes will not be checked
+ignored-gamemodes:
+  - creative
+  - spectator
+
+# how the plugin should check if the player is flying
+# valid options are:
+#   move-event  -> checks every time the player moves (over a block)
+#   timer       -> checks repeatedly using a timer
+checking-mode: move-event
+
+# if 'timer' is selected above, how frequently should the plugin check if a player
+# is flying? measured in ticks (there's 20 ticks in a second)
+timer-interval: 2
